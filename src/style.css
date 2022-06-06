@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Poppins:ital,wght@0,400;0,500;0,700;1,600&family=Roboto:ital@1&family=Ubuntu:wght@400;500;700&display=swap');
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #d2d9e4;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    font-family: 'Poppins',sans-serif;
+    margin: 0;
+    overflow: hidden;
+}
+
+.App {
+    font-family: 'Poppins',sans-serif;
+    border-radius: 5px;
+    box-shadow: 10px 3px 10px rgba(0,0,0,1);
+    text-align: center;
+    overflow: hidden;
+    height: 710px;
+}
+
+.photo {
+    padding-top: 15px;
+}
+.photo > img {
+    width: 200px;
+    height: 200px;
+}
+
+.info {
+    height: 100vh;
+    background-color: black;
+}
+
+.subinfo {
+    background-color: #21222A;
+    height: 720px;
+    margin: 0px auto;
+    width: 300px; 
+}
+
+.details > h2 {
+    margin-top: 5px;
+    margin-bottom: 0;
+    color: white;
+}
+
+.details > p {
+    margin-top: -5px;
+    color: white;
+    font-size: 0.8rem;
+}
+
+.btn {
+    display: flex;
+    flex-direction: row;
+    padding: 5px;
+}
+
+button {
+   width: 100px;
+   height: 30px;
+   margin: 0 20px;
+   cursor: pointer;
+}
+
+#btn1 {
+    background-color: green;
+    color: white;
+    font-family: 'Poppins';
+    border: none;
+    border-radius: 5px;
+    font-size: 1em;
+}
+
+#btn2 {
+    background-color: blueviolet;
+    color: white;
+    font-family: 'Poppins';
+    border: none;
+    border-radius: 5px;
+    font-size: 1em;
+}
+
+button:hover {
+    transition: ease-out;
+    transform: scale(1.1);
+}
+
+.main {
+    color: white;
+    text-align: left;
+    margin-left: 25px;
+}
+
+.head > p {
+    margin: -15px 15px 0 0;
+    font-size: 0.8rem;
+    text-align: justify;
+}
+
+.head > ul {
+    margin: -5px 0px 10px -20px;
+    padding-bottom: -5px;
+}
+
+.foot > ul {
+    list-style: none;
+    display: inline-flex;
+    bottom: 0;
+}
+
+.foot {
+    background: rgba(0, 0, 0, 0.3); 
+    height: 37px;
+    width: 300px;
+    margin: 0px;
+}
+
+.foot .footlist {
+    text-decoration: none;
+    margin: -10px 2px 0 -20px;
+    padding: 0 40px;
+}
+
+.foot .icons {
+    font-size: 1.5em;
+    color: white;
+}
+
+.foot .icons:hover {
+    transition: ease-out;
+    transform: scale(1.1);
+}
+
